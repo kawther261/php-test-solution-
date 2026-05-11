@@ -8,10 +8,7 @@ export default defineConfig({
             input: ['resources/js/main.jsx'],
             refresh: true,
         }),
-        react({
-            fastRefresh: true,
-            jsxRuntime: 'automatic',
-        }),
+        react(),
     ],
     server: {
         host: '127.0.0.1',
